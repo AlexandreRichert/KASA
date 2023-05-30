@@ -1,0 +1,39 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: clamp(10px, 8vw, 50px);
+    max-width: 1400px;
+    align-items: center;
+    background-color: aqua;
+}
+
+.navigation-logo img {
+    width: clamp(124px, 15vw, 241px);
+    background-color: black;
+}
+
+.navigation-links ul {
+    display: flex;
+    list-style: none;
+    background-color: chartreuse;
+    padding-inline-start: 0;
+
+}
+
+.navigation-links ul li {
+    margin: 10px;
+    font-size: clamp(12px, 3vw, 24px); /* Utilisez clamp() pour définir une plage de tailles de police */
+    text-decoration: none;
+    background-color: coral;
+}
+
+.navigation-links a {
+    text-decoration: none;
+    color: #FF6060;
+}
+
+.navigation-links a:hover {
+    text-decoration: underline;
+}
+

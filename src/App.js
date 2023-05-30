@@ -2,7 +2,7 @@ import Home from './pages/Home'
 import Error from './pages/Error'
 import About from './pages/About'
 import Accomodation from './pages/Accomodation'
-import './App.css';
+import './styles/App.css';
 import { Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav';
 
