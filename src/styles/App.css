@@ -2,3 +2,11 @@
 @import "./About.css";
 @import "./Error.css";
 @import "./Accomodation.css";
+@import "./Footer.css";
+
+.App {
+    max-width: 1600px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

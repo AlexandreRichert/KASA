@@ -1,11 +1,11 @@
 import { NavLink } from "react-router-dom"
 export default function Nav () {
     return (
-        <div className="navigation">
+        <header className="navigation">
             <div className="navigation-logo">
                 <img src="./LOGO.png" alt="logo" />
             </div>
-            <div className="navigation-links">
+            <nav className="navigation-links">
                 <ul>
                     <li>
                         <NavLink to="/">Accueil</NavLink>
@@ -14,7 +14,7 @@ export default function Nav () {
                         <NavLink to="/About">A Propos</NavLink>
                     </li>
                 </ul>
-            </div>
-        </div>
+            </nav>
+        </header>
     )
 }

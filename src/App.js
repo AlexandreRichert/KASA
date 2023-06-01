@@ -5,10 +5,11 @@ import Accomodation from './pages/Accomodation'
 import './styles/App.css';
 import { Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Nav />
       <Routes>
         <Route path='/' element ={<Home /> } />
@@ -16,6 +17,7 @@ function App() {
         <Route path='/accomodation' element ={<Accomodation /> } />
         <Route path='/*' element ={<Error /> } />
       </Routes>
+      <Footer />
     </div>
   );
 }
