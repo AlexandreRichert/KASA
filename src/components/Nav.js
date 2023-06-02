@@ -3,7 +3,7 @@ export default function Nav () {
     return (
         <header className="navigation">
             <div className="navigation-logo">
-                <img src="./LOGO.png" alt="logo" />
+                <img src="./LOGO.png" alt="logo KASA" />
             </div>
             <nav className="navigation-links">
                 <ul>

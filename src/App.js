@@ -8,11 +8,12 @@ import Nav from './components/Nav';
 import Footer from './components/Footer';
 
 function App() {
+
   return (
     <div className='App'>
       <Nav />
       <Routes>
-        <Route path='/' element ={<Home /> } />
+        <Route path='/' element ={<Home  /> } />
         <Route path='/about' element ={<About /> } />
         <Route path='/accomodation' element ={<Accomodation /> } />
         <Route path='/*' element ={<Error /> } />

@@ -1,9 +1,16 @@
-export default function Home() {
+import React from 'react';
+import logements from '../logements.json';
+import Card from '../components/Card';
+import Banner from '../components/Banner';
+import imageBannerHome from '../assets/banner_home.png'
+
+export default function Home () {
     return (
-      <div className="home">
-        <h1>My progression</h1>
-        <div>Welcome to this site devoted to your programming progression</div>
-        <br />
+      <div className='Home'>
+        <Banner image = {imageBannerHome} title = "Chez vous, partout et ailleurs" />
+        {logements.map((logement)=> (
+            <Card key={logement.id} id={logement.id} title={logement.title} cover={logement.cover} />
+        ))}
       </div>
-    );
-  }
+    )
+}
