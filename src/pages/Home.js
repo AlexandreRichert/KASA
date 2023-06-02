@@ -8,9 +8,11 @@ export default function Home () {
     return (
       <div className='Home'>
         <Banner image = {imageBannerHome} title = "Chez vous, partout et ailleurs" />
+        <section className='container-cards'>
         {logements.map((logement)=> (
             <Card key={logement.id} id={logement.id} title={logement.title} cover={logement.cover} />
         ))}
+        </section>
       </div>
     )
 }

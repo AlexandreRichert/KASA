@@ -3,6 +3,8 @@
 @import "./Error.css";
 @import "./Accomodation.css";
 @import "./Footer.css";
+@import "./Banner.css";
+@import "./Card.css";
 
 .App {
     max-width: 1600px;

@@ -1,9 +1,9 @@
 function Card(props) {
   return (
-    <div className="Card">
-        <img src={props.cover} alt="logement" />
-        <span>{props.title}</span>
-    </div>
+        <div className="card">
+            <img src={props.cover} alt="logement" />
+            <span>{props.title}</span>
+        </div>
   );
 }
 

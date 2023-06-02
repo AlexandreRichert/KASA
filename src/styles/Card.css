@@ -1,0 +1,32 @@
+.container-cards {
+    background-color: #F6F6F6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 100px;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.card {
+    max-width: 340px;
+    max-height: 340px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 340px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: brightness(0.9);
+}
+
+.card span {
+    position: absolute;
+    bottom: 15px;
+    left: 5px;
+    color: white;
+    font-weight: 500;
+}
