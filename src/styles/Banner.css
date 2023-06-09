@@ -5,8 +5,7 @@
 }
 
 .banner {
-    max-width: 1600px;
-    width: clamp(280px, 90vw, 1580px);
+    width: clamp(280px, 90vw, 1880px);
     height: clamp(111px, 20vw, 225px);
     position: relative;
 }

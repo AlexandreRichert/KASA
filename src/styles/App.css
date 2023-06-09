@@ -5,10 +5,12 @@
 @import "./Footer.css";
 @import "./Banner.css";
 @import "./Card.css";
+@import "./Collapse.css";
 
 .App {
-    max-width: 1600px;
+    max-width: 1900px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
+
