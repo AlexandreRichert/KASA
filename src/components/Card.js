@@ -1,9 +1,9 @@
 function Card(props) {
   return (
-        <div className="card">
+        <a href={`/logement/${props.id}`} className="card">
             <img src={props.cover} alt="logement" />
             <span>{props.title}</span>
-        </div>
+        </a>
   );
 }
 
