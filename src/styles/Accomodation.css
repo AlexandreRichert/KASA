@@ -24,3 +24,7 @@ li {
     margin: 0;
     /* Supprime la marge sur tous les côtés */
 }
+
+.details {
+    display: flex;
+}

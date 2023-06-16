@@ -5,6 +5,7 @@ import SlideshowTitle from '../components/SlideshowTitle';
 import SlideshowHost from '../components/SlideshowHost';
 import SlideshowTags from '../components/SlideshowTags';
 import SlideshowRating from '../components/SlideshowRating';
+import Collapse from '../components/Collapse';
 
 export default function Accomodation() {
   const { id } = useParams();
@@ -23,7 +24,8 @@ export default function Accomodation() {
           <SlideshowRating rating ={logement.rating} />
         </div>
         <div className='details'>
-          
+          <Collapse className="aa" title="Description" description = {logement.description} isDescription ={true}/>
+          <Collapse  title="Equipements" equipements = {logement.equipments} useListItem ={false} isDescription={false}/>
         </div>     
       </div>
     );

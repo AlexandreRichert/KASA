@@ -10,7 +10,7 @@ export default function About() {
         <section className='container-collapses'>
           <ul>
           {collapseData.map((data)=> (
-            <Collapse key={data.id} id ={data.id} title={data.title} description ={data.description} />
+            <Collapse key={data.id} id ={data.id} title={data.title} description ={data.description}  />
         ))}
           </ul>
         </section>
