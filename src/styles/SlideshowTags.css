@@ -1,0 +1,10 @@
+.tags ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+
+}
+
+.tags ul li {
+    background-color: red;
+}

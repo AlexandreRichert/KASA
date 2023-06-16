@@ -1,0 +1,30 @@
+.slideshow img {
+    width: clamp(300px, 90vw, 1800px);
+    height: clamp(415px, 20vh, 255px);
+    object-fit: cover;
+}
+.slideshow {
+    position: relative;
+
+}
+.fa-chevron-left {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(50%, -50%);
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.fa-chevron-right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+* {
+    box-shadow: 0 0 0 3px green inset;
+}

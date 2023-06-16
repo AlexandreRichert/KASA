@@ -6,6 +6,10 @@
 @import "./Banner.css";
 @import "./Card.css";
 @import "./Collapse.css";
+@import "./Slideshow.css";
+@import "./SlideshowHost.css";
+@import "./SlideshowTags.css";
+@import "./SlideshowRating.css";
 
 .App {
     max-width: 1900px;
@@ -13,4 +17,3 @@
     display: flex;
     flex-direction: column;
 }
-

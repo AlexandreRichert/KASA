@@ -1,0 +1,14 @@
+.host {
+    display: flex;
+    align-items: center;
+}
+
+.host h3 {
+    width: 60px;
+}
+
+.host img {
+    border-radius: 50%;
+    height: 65px;
+    aspect-ratio: 1/1;
+}

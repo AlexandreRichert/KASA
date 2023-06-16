@@ -1,0 +1,26 @@
+.accomodation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation,
+.tags-ratings {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
+
+ul {
+    margin-top: 0;
+    /* Supprime la marge supérieure */
+    padding-inline-start: 0;
+    /* Supprime le décalage à gauche */
+}
+
+li {
+    margin: 0;
+    /* Supprime la marge sur tous les côtés */
+}
