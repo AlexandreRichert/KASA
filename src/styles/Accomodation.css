@@ -27,4 +27,7 @@ li {
 
 .details {
     display: flex;
+    justify-content: space-between;
+    width: 90%;
+    gap: 65px;
 }
