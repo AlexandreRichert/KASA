@@ -5,24 +5,27 @@
     align-items: center;
 }
 
+.wrapper-informations {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
 .presentation,
 .tags-ratings {
     display: flex;
-    justify-content: space-between;
-    width: 90%;
-    align-items: center;
+    flex-direction: column;
+}
+
+.tags-ratings {
+    gap: 30px;
+    align-items: flex-end;
 }
 
 ul {
-    margin-top: 0;
-    /* Supprime la marge supérieure */
     padding-inline-start: 0;
     /* Supprime le décalage à gauche */
-}
-
-li {
-    margin: 0;
-    /* Supprime la marge sur tous les côtés */
 }
 
 .details {

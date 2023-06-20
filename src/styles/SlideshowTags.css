@@ -6,5 +6,11 @@
 }
 
 .tags ul li {
-    background-color: red;
+    background-color: #FF6060;
+    border-radius: 10px;
+    text-align: center;
+    padding: 3px 30px;
+    font-size: 14px;
+    color: white;
+    margin: 25px 0;
 }

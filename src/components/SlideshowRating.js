@@ -7,5 +7,5 @@ export default function SlideshowRating(props) {
     ratingStars.push(<i key={i} className={starClass}></i>);
   }
 
-  return <div>{ratingStars}</div>;
+  return <div className='rating-stars'>{ratingStars}</div>;
 }

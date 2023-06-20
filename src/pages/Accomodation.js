@@ -15,16 +15,18 @@ export default function Accomodation() {
     return (
       <div className="accomodation">
         <Slideshow key={logement.id} {...logement} />
-        <div className="presentation">
-            <SlideshowTitle  title ={logement.title} location ={logement.location} />
+        <div className='wrapper-informations'>
+          <div className="presentation">
+              <SlideshowTitle  title ={logement.title} location ={logement.location} />
+              <SlideshowTags tags ={logement.tags} />  
+          </div>
+          <div className="tags-ratings">
             <SlideshowHost  name={logement.host.name}  host ={logement.host.picture} />
-        </div>
-        <div className="tags-ratings">
-          <SlideshowTags tags ={logement.tags} />  
-          <SlideshowRating rating ={logement.rating} />
+            <SlideshowRating rating ={logement.rating} />
+          </div>
         </div>
         <div className='details'>
-          <Collapse className="aa" title="Description" description = {logement.description} isDescription ={true}/>
+          <Collapse title="Description" description = {logement.description} isDescription ={true}/>
           <Collapse  title="Equipements" equipements = {logement.equipments} useListItem ={false} isDescription={false}/>
         </div>     
       </div>

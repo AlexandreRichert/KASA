@@ -1,0 +1,19 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title h2,
+.title h3 {
+    color: #FF6060;
+    font-weight: 500;
+}
+
+.title h2 {
+    font-size: clamp(18px, 5vw, 36px);
+}
+
+.title h3 {
+    font-size: clamp(14px, 3vw, 18px);
+}

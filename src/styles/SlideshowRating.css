@@ -1,7 +1,12 @@
+.rating-stars {
+    display: flex;
+    gap: 10px;
+}
+
 .red {
-    color: red;
+    color: #FF6060;
 }
 
 .gray {
-    color: gray;
+    color: #E3E3E3;
 }

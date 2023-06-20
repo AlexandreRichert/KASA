@@ -1,12 +1,15 @@
 .slideshow img {
     width: clamp(300px, 90vw, 1800px);
-    height: clamp(415px, 20vh, 255px);
+    height: clamp(255px, 40vw, 415px);
     object-fit: cover;
+    border-radius: 25px;
 }
+
 .slideshow {
     position: relative;
 
 }
+
 .fa-chevron-left {
     position: absolute;
     top: 50%;

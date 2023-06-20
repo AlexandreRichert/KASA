@@ -10,10 +10,18 @@
 @import "./SlideshowHost.css";
 @import "./SlideshowTags.css";
 @import "./SlideshowRating.css";
+@import "./SlideshowTitle.css";
 
 .App {
     max-width: 1900px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+h2,
+h3,
+ul,
+li {
+    margin: 0;
 }
