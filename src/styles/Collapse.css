@@ -18,9 +18,17 @@
     /*height: clamp(30px, 10vh, 50px);
     border-radius: 5px;*/
     color: white;
-    position: relative;
     margin-bottom: 40px;
 
+}
+
+.container-title {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF6060;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 5px;
 }
 
 .collapse h2 {
@@ -31,19 +39,11 @@
     border-radius: 5px;
 }
 
-.collapse i {
-    position: absolute;
-    top: 50%;
-    transform: translate(50%, -50%);
-    right: 20px;
-    transition: right 0.2s ease-in;
-}
 
 .rotate {
     color: black;
     transform: rotate(180deg) translate(50%, -50%);
     transition: transform 0.3s ease-in-out;
-
 }
 
 
