@@ -28,6 +28,15 @@
     color: #FFFFFF;
 }
 
+.index-pictures {
+    position: absolute;
+    top: 85%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    font-size: 18px;
+    color: white;
+}
+
 * {
     box-shadow: 0 0 0 3px green inset;
 }

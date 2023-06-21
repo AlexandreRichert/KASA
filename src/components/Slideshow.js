@@ -26,6 +26,9 @@ return (
               <img src={pictures[currentIndex].props.src} alt={` ${currentIndex}`} />
               <i className="fa-solid fa-chevron-left" onClick={previousImage}></i>
               <i className="fa-solid fa-chevron-right" onClick={nextImage}></i>
+              <p className='index-pictures' >
+              {currentIndex + 1}/{props.pictures.length}
+              </p>
             </>
           ) : (
             <img src={pictures[currentIndex].props.src} alt={` ${currentIndex}`} />
