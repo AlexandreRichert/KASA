@@ -12,6 +12,7 @@
     margin-top: 20px;
 }
 
+
 .presentation,
 .tags-ratings {
     display: flex;
@@ -33,4 +34,28 @@ ul {
     justify-content: space-between;
     width: 90%;
     gap: 65px;
+}
+
+@media screen and (max-width:800px) {
+    .wrapper-informations {
+        flex-direction: column;
+    }
+
+    .presentation {
+        width: 100%;
+    }
+
+    .tags-ratings {
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        margin-bottom: 60px;
+        align-items: center;
+    }
+
+    .details {
+        flex-direction: column;
+        gap: 0;
+    }
+
 }

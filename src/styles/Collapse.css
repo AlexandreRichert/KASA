@@ -36,14 +36,13 @@
     padding: 1rem;
 }
 
+.description .collapse-content {
+    padding: 1rem;
+}
+
 .equipments ul li {
     margin-top: 5px;
 }
-
-
-
-
-
 
 .collapse h2 {
     background-color: #FF6060;
