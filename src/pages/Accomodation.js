@@ -6,11 +6,15 @@ import SlideshowHost from '../components/SlideshowHost';
 import SlideshowTags from '../components/SlideshowTags';
 import SlideshowRating from '../components/SlideshowRating';
 import Collapse from '../components/Collapse';
+import Error from '../pages/Error';
 
 export default function Accomodation() {
   const { id } = useParams();
   const logement = logements.find((logement) => logement.id === id);
      
+  if (!logement) {
+    return <Error />;
+  }
 
     return (
       <div className="accomodation">
