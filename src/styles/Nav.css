@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: clamp(10px, 3vw, 40px);
+    padding: clamp(10px, 5vw, 80px);
     align-items: center;
 }
 
@@ -19,7 +19,8 @@
 
 .navigation-links ul li {
     margin: 10px;
-    font-size: clamp(12px, 3vw, 24px); /* Utilisez clamp() pour définir une plage de tailles de police */
+    font-size: clamp(12px, 3vw, 24px);
+    /* Utilisez clamp() pour définir une plage de tailles de police */
     text-decoration: none;
 }
 
@@ -35,6 +36,7 @@
 
 @media (max-width: 600px) {
     .navigation-links ul li {
-      text-transform: uppercase; /* Transformation en majuscules à partir du breakpoint de 768px */
+        text-transform: uppercase;
+        /* Transformation en majuscules à partir du breakpoint de 768px */
     }
-  }
+}

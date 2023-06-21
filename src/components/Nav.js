@@ -1,9 +1,12 @@
 import { NavLink } from "react-router-dom"
+import logo from '../assets/LOGO.png'
+
+
 export default function Nav () {
     return (
         <header className="navigation">
             <div className="navigation-logo">
-                <img src="./LOGO.png" alt="logo KASA" />
+                <img src={logo} alt="logo KASA" />
             </div>
             <nav className="navigation-links">
                 <ul>
