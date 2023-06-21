@@ -31,6 +31,20 @@
     border-radius: 5px;
 }
 
+.equipments ul {
+    background-color: #F6F6F6;
+    padding: 1rem;
+}
+
+.equipments ul li {
+    margin-top: 5px;
+}
+
+
+
+
+
+
 .collapse h2 {
     background-color: #FF6060;
     font-weight: 500;
@@ -41,22 +55,23 @@
 
 
 .rotate {
-    color: black;
-    transform: rotate(180deg) translate(50%, -50%);
+    transform: rotate(180deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+.container-title i {
     transition: transform 0.3s ease-in-out;
 }
 
 
 .collapse-content {
     color: #FF6060;
-    background-color: #F6F6F6;
     margin: 0;
     border-radius: 5px;
     visibility: hidden;
     height: 0;
     opacity: 0;
     overflow: hidden;
-    padding: 0 1rem;
     transition: all .2s ease-in;
 }
 
@@ -64,7 +79,6 @@
     visibility: visible;
     height: auto;
     overflow: visible;
-    padding: 1rem;
     opacity: 1;
 }
 

@@ -35,7 +35,13 @@ function Collapse (props) {
               <h2>{props.title}</h2>
               <i className={`fa-solid fa-chevron-up ${active && "rotate"}`} onClick={handleToggle}></i>
             </div>
-            <p className="collapse-content">{props.equipements}</p>
+            <ul>
+            {props.equipements.map((equipement, index) => (
+              <li key={index} className="collapse-content">
+                {equipement}
+              </li>
+            ))}
+            </ul>
           </div>
         );
   }
