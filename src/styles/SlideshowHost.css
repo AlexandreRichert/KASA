@@ -1,12 +1,18 @@
 .host {
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 10px;
 }
 
 .host h3 {
-    width: 70px;
+    width: 100px;
     text-align: right;
+    color: #FF6060;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-weight: 500;
+    font-size: clamp(12px, 3vw, 18px);
 }
 
 .host img {

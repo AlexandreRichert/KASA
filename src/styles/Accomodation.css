@@ -51,6 +51,7 @@ ul {
         flex-direction: row-reverse;
         margin-bottom: 60px;
         align-items: center;
+        gap: 0;
     }
 
     .details {

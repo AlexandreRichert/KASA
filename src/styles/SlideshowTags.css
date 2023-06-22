@@ -10,7 +10,8 @@
     border-radius: 10px;
     text-align: center;
     padding: 3px 30px;
-    font-size: 14px;
+    font-size: clamp(10px, 3vw, 14px);
     color: white;
     margin: 25px 0;
+    white-space: nowrap;
 }
