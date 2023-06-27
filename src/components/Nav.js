@@ -6,7 +6,7 @@ export default function Nav () {
     return (
         <header className="navigation">
             <div className="navigation-logo">
-                <img src={logo} alt="logo KASA" />
+                <NavLink to="/"><img src={logo} alt="logo KASA" /></NavLink>
             </div>
             <nav className="navigation-links">
                 <ul>

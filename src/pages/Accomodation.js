@@ -11,7 +11,8 @@ import Error from '../pages/Error';
 export default function Accomodation() {
   const { id } = useParams();
   const logement = logements.find((logement) => logement.id === id);
-     
+    
+  
   if (!logement) {
     return <Error />;
   }
