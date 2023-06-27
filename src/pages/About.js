@@ -6,7 +6,7 @@ import Collapse from '../components/Collapse'
 export default function About() {
     return (
       <div className="about">
-        <Banner image = {imageBannerAbout} imageClassName="about-banner-image" banner ="about-banner" alt ="paysage montagne"/>
+        <Banner image = {imageBannerAbout} imageClassName="about-banner-image" banner ="about-banner" imageAlt ="paysage montagne"/>
         <section className='container-collapses'>
           <ul>
           {collapseData.map((data)=> (
